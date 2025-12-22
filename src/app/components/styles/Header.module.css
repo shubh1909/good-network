@@ -1,0 +1,76 @@
+.header {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background: var(--background);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  font-size: 1.875rem;
+  font-weight: 700;
+  color: #22c55e;
+}
+
+.navContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1.25rem;
+}
+
+.navButton {
+  font-family: sans-serif;
+  font-weight: 600;
+  color: #22c55e;
+  transition: color 0.3s ease;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.navButton:hover {
+  color: #16a34a;
+}
+
+.buttonLink {
+  text-decoration: none;
+}
+
+.loginButton {
+  font-family: sans-serif;
+  font-weight: 600;
+  color: #22c55e;
+  transition: color 0.3s ease;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.loginButton:hover {
+  color: #16a34a;
+}
+
+.signUpButton {
+  font-family: sans-serif;
+  font-weight: 600;
+  background: #22c55e;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background 0.3s ease;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.signUpButton:hover {
+  background: #16a34a;
+}
